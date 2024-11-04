@@ -37,7 +37,8 @@ async function chechWeather(city) {
     else  if(data.weather[0].main==="Haze"){
         weathericon.src="haze.png";  
     }
-    document.querySelector(".weather").style.display="block";}
+    document.querySelector(".weather").style.display="block";
+     document.querySelector(".error").style.display="none";}
     
 }
 searchbutton.addEventListener('click',()=>{
